@@ -7,9 +7,11 @@ wget https://gitee.com/baidusb/common-scripts/raw/master/Debian12-CN.sh && \
 chmod +x Debian12-CN.sh && \
 sed -i 's/\r$//' Debian12-CN.sh && \
 bash Debian12-CN.sh
-
 ```
 国外：
 ```
-wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/Debian12-INTL.sh && chmod +x Debian12-INTL.sh && bash Debian12-INTL.sh
+wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/Debian12-INTL.sh && \
+chmod +x Debian12-INTL.sh && \
+sed -i 's/\r$//' Debian12-INTL.sh && \
+bash Debian12-INTL.sh
 ```
