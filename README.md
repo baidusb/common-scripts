@@ -25,17 +25,17 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -
 ### 3、Debian11一键升级到Debian12：
 国内：
 ```
-wget https://gitee.com/baidusb/common-scripts/raw/master/upgrade_to_debian12.sh && \
-chmod +x upgrade_to_debian12.sh && \
-sed -i 's/\r$//' upgrade_to_debian12.sh && \
-bash upgrade_to_debian12.sh
+wget https://gitee.com/baidusb/common-scripts/raw/master/Debian11_Upgrade_To_Debian12.sh && \
+chmod +x Debian11_Upgrade_To_Debian12.sh && \
+sed -i 's/\r$//' Debian11_Upgrade_To_Debian12.sh && \
+bash Debian11_Upgrade_To_Debian12.sh
 ```
 国外：
 ```
-wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/upgrade_to_debian12.sh && \
-chmod +x upgrade_to_debian12.sh && \
-sed -i 's/\r$//' upgrade_to_debian12.sh && \
-bash upgrade_to_debian12.sh
+wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/Debian11_Upgrade_To_Debian12.sh && \
+chmod +x Debian11_Upgrade_To_Debian12.sh && \
+sed -i 's/\r$//' Debian11_Upgrade_To_Debian12.sh && \
+bash Debian11_Upgrade_To_Debian12.sh
 ```
 
 
