@@ -58,4 +58,3 @@ if [ -n "$fastest_mirror" ]; then
 else
     echo "未找到可用的镜像源，请检查网络连接。"
 fi
-
