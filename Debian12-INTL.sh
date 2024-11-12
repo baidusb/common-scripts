@@ -42,19 +42,15 @@ case $region in
         ;;
 esac
 
-# 备份原来的sources.list文件
+# 备份原来的 sources.list 文件
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 
-# 写入新的源地址到sources.list文件
+# 写入新的源地址到 sources.list 文件
 sudo bash -c "cat > /etc/apt/sources.list <<EOF
 deb $mirror bookworm main contrib non-free non-free-firmware
 deb $mirror bookworm-updates main contrib non-free non-free-firmware
 deb $mirror bookworm-backports main contrib non-free non-free-firmware
 EOF"
-
-# 更新 Nginx GPG 密钥
-sudo apt-key del ABF5BD827BD9BF62
-curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo gpg --dearmor -o /usr/share/keyrings/nginx-archive-keyring.gpg
 
 # 更新软件包列表
 sudo apt update
