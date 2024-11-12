@@ -3,7 +3,11 @@
 ### 1、Debian12国内外一键切换源：
 国内：
 ```
-wget https://gitee.com/baidusb/common-scripts/raw/master/Debian12-CN.sh && chmod +x Debian12-CN.sh && bash Debian12-CN.sh
+wget https://gitee.com/baidusb/common-scripts/raw/master/Debian12-CN.sh && \
+chmod +x Debian12-CN.sh && \
+sed -i 's/\r$//' Debian12-CN.sh && \
+bash Debian12-CN.sh
+
 ```
 国外：
 ```
