@@ -1,5 +1,6 @@
 # 个人自用便捷脚本
-#### Debian12国内外一键切换源
+## Debian12常用脚本
+### Debian12国内外一键切换源
 国内：
 ```
 curl -sSL -k -o https://gitee.com/baidusb/common-scripts/raw/master/Debian12-CN.sh && chmod +x Debian12-CN.sh && bash Debian12-CN.sh
