@@ -15,3 +15,8 @@ chmod +x Debian12-INTL.sh && \
 sed -i 's/\r$//' Debian12-INTL.sh && \
 bash Debian12-INTL.sh
 ```
+
+### 2、Debian12一键升级到当前最新版并安装常用工具
+```
+sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y install curl wget sudo net-tools vim unzip htop build-essential && sudo apt autoremove -y && sudo apt clean
+```
