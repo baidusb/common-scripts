@@ -3,17 +3,17 @@
 ### 1、Debian12国内外一键切换源：
 国内：
 ```
-wget https://gitee.com/baidusb/common-scripts/raw/master/Debian12-CN.sh && \
-chmod +x Debian12-CN.sh && \
-sed -i 's/\r$//' Debian12-CN.sh && \
-bash Debian12-CN.sh
+wget https://gitee.com/baidusb/common-scripts/raw/master/Debian12-Switch-Source-CN.sh && \
+chmod +x Debian12-Switch-Source-CN.sh && \
+sed -i 's/\r$//' Debian12-Switch-Source-CN.sh && \
+bash Debian12-Switch-Source-CN.sh
 ```
 国外：
 ```
-wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/Debian12-INTL.sh && \
-chmod +x Debian12-INTL.sh && \
-sed -i 's/\r$//' Debian12-INTL.sh && \
-bash Debian12-INTL.sh
+wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/Debian12-Switch-Source-INTL.sh && \
+chmod +x Debian12-Switch-Source-INTL.sh && \
+sed -i 's/\r$//' Debian12-Switch-Source-INTL.sh && \
+bash Debian12-Switch-Source-INTL.sh
 ```
 
 ### 2、Debian12一键升级到当前最新版并安装常用工具
