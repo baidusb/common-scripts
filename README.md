@@ -21,7 +21,8 @@ bash Debian12-Switch-Source.sh
 sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y install curl wget sudo net-tools vim unzip htop build-essential && sudo apt autoremove -y && sudo apt clean
 ```
 
-### 1、Debian11一键升级到Debian12：
+
+### 3、Debian11一键升级到Debian12：
 国内：
 ```
 wget https://gitee.com/baidusb/common-scripts/raw/master/upgrade_to_debian12.sh && \
