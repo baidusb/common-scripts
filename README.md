@@ -38,5 +38,19 @@ sed -i 's/\r$//' Debian11_Upgrade_To_Debian12.sh && \
 bash Debian11_Upgrade_To_Debian12.sh
 ```
 
-
+### 4、Debian12一键设置SWAP
+国内：
+```
+wget https://gitee.com/baidusb/common-scripts/raw/master/swap-setup.sh && \
+chmod +x swap-setup.sh && \
+sed -i 's/\r$//' swap-setup.sh && \
+bash swap-setup.sh
+```
+国外：
+```
+wget https://raw.githubusercontent.com/baidusb/common-scripts/refs/heads/main/swap-setup.sh && \
+chmod +x swap-setup.sh && \
+sed -i 's/\r$//' swap-setup.sh && \
+bash swap-setup.sh
+```
 
